@@ -7,6 +7,7 @@
   - TypeScript + SWC
   - ESLint for code quality
   - Other essential React dependencies
+  - Tailwind Installation
 
 ### Changed
 - N/A
