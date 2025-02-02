@@ -8,6 +8,7 @@
   - ESLint for code quality
   - Other essential React dependencies
   - Tailwind Installation
+  - React Compiler
 
 ### Changed
 - N/A
