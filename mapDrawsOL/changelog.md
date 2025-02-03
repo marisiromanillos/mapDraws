@@ -11,6 +11,8 @@
   - React Compiler
   - Open Layer dependencies Installed
   - MapComponent created
+  - Draw lines features
+  - Button to download files .gpx
 
 ### Changed
 - N/A
