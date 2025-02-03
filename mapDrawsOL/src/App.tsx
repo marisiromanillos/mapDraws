@@ -1,5 +1,7 @@
+import  MapComponent  from "./components/MapComponent.tsx";
+
 const App = (): JSX.Element => {
-  return <div className="bg-pink-500 p-4 text-white">hello</div>
+  return <MapComponent />
 }
 
 export default App

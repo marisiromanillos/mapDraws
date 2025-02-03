@@ -9,6 +9,8 @@
   - Other essential React dependencies
   - Tailwind Installation
   - React Compiler
+  - Open Layer dependencies Installed
+  - MapComponent created
 
 ### Changed
 - N/A
