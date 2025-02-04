@@ -93,39 +93,63 @@ const MapComponent: React.FC = () => {
   URL.revokeObjectURL(url);
  };
 
+ const clearDrawings = () => {
+  if (!source) return;
+  source.clear(); // Removes all features from the vector source
+ };
+
  return (
-   <div>
-     <div className="mb-4">
-       <label htmlFor="type" className="block text-sm font-medium text-gray-700">
-         Drawing Type
-       </label>
-       <select
-         id="type"
-         value={drawType}
-         onChange={(e) => setDrawType(e.target.value)}
-         className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md"
-       >
-         <option value="None">None</option>
-         <option value="Point">Point</option>
-         <option value="LineString">LineString</option>
-         <option value="Polygon">Polygon</option>
-         <option value="Circle">Circle</option>
-       </select>
-     </div>
+  <div className='lg:py-12 py-8 px-4 sm:px-6 lg:px-8 dark:bg-zinc-950'>
+  <div className="container">
+    <div className="backdrop-blur-md card-black rounded-2xl p-6 mb-6">
+      <div className="space-y-4">
+        <div className="max-w-md">
+          <label
+            htmlFor="type"
+            className="block md:text-2xl text-lg font-semibold text-white/90"
+          >
+            Drawing Type
+          </label>
+          <select
+            id="type"
+            value={drawType}
+            onChange={(e) => setDrawType(e.target.value)}
+            className="mt-4 card-black w-full border-none text-white text-sm
+              rounded-2xl p-4 appearance-none cursor-pointer
+              focus:ring-2 focus:ring-gray-600 focus:outline-none"
+          >
+            <option value="Point">Select line string to draw</option>
+            <option value="LineString">LineString</option>
+          </select>
+        </div>
 
-     <button
-       onClick={downloadGPX}
-       className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-     >
-       Download GPX
-     </button>
+        <div className="pt-4 flex flex-col md:flex-row gap-4">
+          <button
+            onClick={downloadGPX}
+            className="px-8 py-3 text-base font-semibold text-center uppercase
+              bg-white hover:bg-slate-300 rounded-3xl transition-colors"
+          >
+            Download GPX
+          </button>
+          <button
+            onClick={clearDrawings}
+            className="px-8 py-3 text-base text-white font-semibold text-center uppercase
+              hover:bg-red-700 bg-red-600 rounded-3xl transition-colors"
+          >
+            Clear Drawings
+          </button>
+        </div>
+      </div>
+    </div>
 
-     <div
-       ref={mapRef}
-       className="w-full h-screen border-4 border-blue-500 rounded-lg shadow-lg"
-     />
-   </div>
- );
-};
+    <div
+      ref={mapRef}
+      className="w-full h-[calc(100vh-16rem)] rounded-2xl shadow-xl overflow-hidden
+        border border-gray-800/50 bg-gray-900/60 backdrop-blur-md"
+    />
+  </div>
+  </div>
+   );
+  };
 
-export default MapComponent;
+  export default MapComponent;
