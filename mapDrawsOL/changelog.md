@@ -13,6 +13,8 @@
   - MapComponent created
   - Draw lines features
   - Button to download files .gpx
+  - Tailwind config for contaner and card classes
+  - New Instruction component
 
 ### Changed
 - N/A
