@@ -32,8 +32,8 @@ const MapComponent: React.FC = () => {
        }),
      ],
      view: new View({
-       center: [1390659.798668, 5144570.023792],
-       zoom: 17,
+       center: [0, 0],
+       zoom: 2,
      }),
    });
 
