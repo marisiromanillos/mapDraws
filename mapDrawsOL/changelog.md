@@ -15,9 +15,11 @@
   - Button to download files .gpx
   - Tailwind config for contaner and card classes
   - New Instruction component
+  - Hero Component
 
 ### Changed
-- N/A
+- Map Component selection option limited to linestring
+- Instructions component content changed
 
 ### Fixed
 - N/A
