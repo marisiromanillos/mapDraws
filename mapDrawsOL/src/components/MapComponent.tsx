@@ -99,7 +99,7 @@ const MapComponent: React.FC = () => {
  };
 
  return (
-  <div className='lg:py-12 py-8 px-4 sm:px-6 lg:px-8 dark:bg-zinc-950'>
+  <section className='lg:py-12 py-8 px-4 sm:px-6 lg:px-8 dark:bg-zinc-950'>
   <div className="container">
     <div className="backdrop-blur-md card-black rounded-2xl p-6 mb-6">
       <div className="space-y-4">
@@ -148,7 +148,7 @@ const MapComponent: React.FC = () => {
         border border-gray-800/50 bg-gray-900/60 backdrop-blur-md"
     />
   </div>
-  </div>
+  </section>
    );
   };
 
