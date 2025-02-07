@@ -1,6 +1,6 @@
 const Instructions = (): JSX.Element => {
     return (
-      <section className='lg:py-12 py-8 px-4 bg-gradient-to-t from-transparent sm:px-6 lg:px-8 dark:bg-zinc-950'>
+      <section id="instructions" className='lg:py-12 py-8 px-4 bg-gradient-to-t from-transparent sm:px-6 lg:px-8 dark:bg-zinc-950'>
         <div className="container">
             <div className="relative grid gap-[17px] sm:grid-cols-2 xl:grid-cols-[repeat(15,minmax(0,1fr))]">
                 <div className="relative xl:col-span-5">
@@ -57,7 +57,7 @@ const Instructions = (): JSX.Element => {
                             </div>
                             <p className="text-white py-4">Click the download button to get the GPX file. This file contains a series of latitude and longitude coordinates</p>
                             <picture >
-                                <img  className='w-full h-full' alt='download image' src="src/assets/download.webp" />
+                                <img  className='aspect-auto' alt='download image' src="src/assets/download.webp" />
                             </picture>
                         </div>
                     </div>
