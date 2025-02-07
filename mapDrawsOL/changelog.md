@@ -20,6 +20,8 @@
 ### Changed
 - Map Component selection option limited to linestring
 - Instructions component content changed
+- SVG icon change in file index.html
+- Change title to pathfinder in Hero component
 
 ### Fixed
 - N/A
