@@ -13,7 +13,7 @@ PathFinder is a React application designed to help users plan and visualize rout
 1.  Clone the repository:
 
     ```bash
-    git clone [repository URL]
+    git clone https://github.com/marisiromanillos/mapDraws.git
     ```
 
 2.  Navigate to the project directory:
