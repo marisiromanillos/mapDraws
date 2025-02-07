@@ -34,7 +34,7 @@ const Hero = (): JSX.Element => {
             <div className='container z-10'>
                 <div className='text-center flex flex-col space-y-4'>
                     <h3 className='text-xl font-extralight'>Map your adventure</h3>
-                    <h1 className='text-7xl font-extrabold'>TrailForge</h1>
+                    <h1 className='text-7xl font-extrabold'>Pathfinder</h1>
                     <p className="text-xl pb-4 md:text-2xl lg:w-1/2 lg:mx-auto">
                        Draw, explore, and share your perfect routes for running, hiking, and cycling. Your journey starts with a single line.
                     </p>
