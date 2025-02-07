@@ -22,6 +22,7 @@
 - Instructions component content changed
 - SVG icon change in file index.html
 - Change title to pathfinder in Hero component
+- Update readme.md file
 
 ### Fixed
 - N/A
