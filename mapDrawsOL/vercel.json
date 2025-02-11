@@ -3,9 +3,9 @@
     "builds": [
       {
         "src": "package.json",
-        "use": "@vercel/vite",
+        "use": "@vercel/node",
         "config": {
-          "buildCommand": "npm run build"
+          "buildCommand": "./node_modules/.bin/vite build"
         }
       }
     ],
