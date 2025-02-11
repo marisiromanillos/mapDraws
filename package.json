@@ -7,6 +7,10 @@
   "dependencies": {
     "install": "^0.13.0",
     "npm": "^11.1.0",
-    "ol": "^10.4.0"
+    "ol": "^10.4.0",
+    "vite": "^5.0.0"
+  },
+  "scripts": {
+    "build": "vite build"
   }
 }
