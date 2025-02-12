@@ -1,3 +1,5 @@
+import download from '../assets/download.webp'
+
 const Instructions = (): JSX.Element => {
     return (
       <section id="instructions" className='lg:py-12 py-8 px-4 bg-gradient-to-t from-transparent sm:px-6 lg:px-8 dark:bg-zinc-950'>
@@ -57,7 +59,7 @@ const Instructions = (): JSX.Element => {
                             </div>
                             <p className="text-white py-4">Click the download button to get the GPX file. This file contains a series of latitude and longitude coordinates</p>
                             <picture >
-                                <img  className='aspect-auto' alt='download image' src="src/assets/download.webp" />
+                                <img  className='aspect-auto' alt='download image' src={download}  />
                             </picture>
                         </div>
                     </div>
