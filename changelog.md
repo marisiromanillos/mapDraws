@@ -16,6 +16,7 @@
   - Tailwind config for contaner and card classes
   - New Instruction component
   - Hero Component
+  - Add Icons Logo component
 
 ### Changed
 - Map Component selection option limited to linestring
@@ -23,6 +24,7 @@
 - SVG icon change in file index.html
 - Change title to pathfinder in Hero component
 - Update readme.md file
+- Add Icons to Instructions Component
 
 ### Fixed
-- N/A
+- Fixed Image path on Instructions component
