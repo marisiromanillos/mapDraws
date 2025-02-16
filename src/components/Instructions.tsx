@@ -1,5 +1,5 @@
 import download from '../assets/download.webp'
-
+import  Icons  from './Icons'
 const Instructions = (): JSX.Element => {
     return (
       <section id="instructions" className='lg:py-12 py-8 px-4 bg-gradient-to-t from-transparent sm:px-6 lg:px-8 dark:bg-zinc-950'>
@@ -69,13 +69,10 @@ const Instructions = (): JSX.Element => {
                         <div className="card-style-bento">
                             <div className="card-title">
                                 <span className="text-2xl">🏃🏽‍♀️</span>
-                                <h3 className="text-white text-xl font-bold">Upload to Garmin</h3>
+                                <h3 className="text-white text-xl font-bold">Upload to your prefered App</h3>
                             </div>
-                            <p className="text-white py-4">Upload it to your Garmin Connect account</p>
-                            <picture>
-                                <source srcSet="src/assets/garmin.webp" />
-                                <img alt='garmin connect dashboard' src="src/assets/garminphoto.webp" />
-                            </picture>
+                            <p className="text-white pt-4 pb-8">Navigate to your app and upload the GPX file</p>
+                            <Icons/>
                         </div>
                     </div>
                 </div>
