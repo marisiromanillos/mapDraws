@@ -110,7 +110,7 @@ const MapComponent: React.FC = () => {
   };
 
   return (
-    <section id='map-component' className='lg:py-12 py-8 px-4 sm:px-6 lg:px-8 dark:bg-zinc-950'>
+    <section id='map-component' className='lg:py-12 py-8 px-4 sm:px-6 lg:px-8 bg-zinc-950'>
       <div className="container">
         <div className="backdrop-blur-md card-black rounded-2xl p-6 mb-6">
           <div className="space-y-4">
