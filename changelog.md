@@ -28,3 +28,4 @@
 
 ### Fixed
 - Fixed Image path on Instructions component
+- Instructions cards were no showing so remove dark: from tailwind config
